@@ -1,0 +1,25 @@
+#photoGrid{
+    display: grid;
+    padding: 40px;
+    grid-template-columns:repeat(3,0.4fr);
+    grid-template-rows: auto;
+}
+
+#photoGrid img{
+    max-width: 500px;
+    max-height: 200px;
+}
+
+#text_hotel_info{
+    margin-left: 30px;
+    padding: 10px;
+}
+#address_hotel_grid{
+    display: flex;
+    align-items: center;
+}
+
+#address_hotel_grid a{
+    padding: 10px;
+    margin-left: 5px;
+}
